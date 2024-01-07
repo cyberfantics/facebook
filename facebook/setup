@@ -1,0 +1,17 @@
+#bin/python
+
+pip install mechanize
+pip install subprocess
+pip install time
+pip install requests
+pip install re
+pip install os
+pip install signa
+pip install shutil
+pip install sys
+pip install socket
+pip installmechanize
+pip install random
+pip install optparse
+pip install io
+pkg install wget

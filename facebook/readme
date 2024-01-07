@@ -1,0 +1,15 @@
+chmod +x setup
+./setup  #It install all the required packages for tool
+
+{
+chmod +x main.py
+./main.py
+} or
+{
+python main.py
+}
+
+
+
+
+
