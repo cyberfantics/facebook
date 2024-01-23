@@ -75,8 +75,8 @@ class FaceBoom(object):
             # If neither condition is met, return 0 to indicate login failure
             return 0
 
-        except (KeyboaREDInterrupt, EOFError):
-            # Handling keyboaRED interrupt or end-of-file error
+        except (KeyboardInterrupt, EOFError):
+            # Handling keyboard interrupt or end-of-file error
             print(RED + "\n[" + YELLOW + "!" + RED + "]" + YELLOW + " Aborting" + RED + "..." + WHITE)
             time.sleep(1.5)
             sys.exit(1)
